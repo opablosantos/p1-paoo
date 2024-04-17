@@ -2,9 +2,9 @@ const axios = require ("axios")
 require("dotenv").config()
 
 const {
-    APPID,
+    URL_BASE,
     CITY_NAME,
-    URL_BASE
+    APPID
 } = process.env
 
 const url = `${URL_BASE}?q=${CITY_NAME}&appid=${APPID}`
